@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+AI Caption Generator
+A modern web app built with Next.js, React, and Google's Gemini API to generate creative, social-media-ready image captions from uploaded images. Just drop your image and let AI do the magic! 
 
-## Getting Started
 
-First, run the development server:
+✨ Features
+📸 Upload any image (up to 30MB)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🤖 AI-powered captions using Gemini 2.0 Flash
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🧠 Generates 10 unique captions per image
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+📋 Click-to-copy caption functionality
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+⚡ Fast and interactive UI with toast notifications
 
-## Learn More
+💅 Beautiful UI built with Tailwind CSS & Lucide icons
 
-To learn more about Next.js, take a look at the following resources:
+🧪 Tech Stack
+Frontend: React, Tailwind CSS, Toastify, Axios
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Backend: Next.js API Route
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+AI Model: Google Generative AI (Gemini 2.0 Flash)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/SanthoshKumar49451/ai-captions-generator.git
+cd ai-captions-generator
+npm install
