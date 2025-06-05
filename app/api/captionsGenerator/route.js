@@ -5,6 +5,15 @@ import { NextResponse } from "next/server";
 
 
 
+export const config = {
+  api: {
+    bodyParser: {
+      sizeLimit: '30mb',
+    },
+  },
+};
+
+
 
 async function fileToBase64(file) {
   const buffer = await file.arrayBuffer();
